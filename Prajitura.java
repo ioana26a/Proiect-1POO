@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Prajitura {                        //Clasa este folosita pentru a crea meniul cofetariei
         private String nume;
         private int pret;
+        public Prajitura(String nume,int pret){
+                this.nume=nume;
+                this.pret=pret;
+        }
         public String getNume() {
                 return nume;
         }

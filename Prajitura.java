@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Prajitura {
         private String nume;
         private int pret;
@@ -21,9 +20,4 @@ public class Prajitura {
         public String toString(){
                 return "Prajitura " + nume + " costa " + pret + " lei.";
         }
-        Scanner sc=new Scanner(System.in);
-
-
-
-
 }
